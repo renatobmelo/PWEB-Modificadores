@@ -19,7 +19,7 @@ console.log(Lucas.nome)
 console.log(Lucas.idade)
 console.log(Lucas.dataNascimento)
 
-const Lukz: PessoaFisica = new PessoaFisica('Lukz', 22, new Date('2000-10-23'), 123123);
+const Lukz: PessoaFisica = new PessoaFisica('Lukz', 22, new Date('2000-10-23'), "321.321.321-32");
 console.log(Lukz.nome)
 console.log(Lukz.idade)
 console.log(Lukz.dataNascimento)
