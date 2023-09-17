@@ -4,9 +4,6 @@ class PessoaFisica extends Pessoa {
         this._cpf = cpf;
         this.nome = super.nome + ' - Física';
     }
-    set cpf(value) {
-        this._cpf = value;
-    }
     get cpf() {
         return this._cpf;
     }

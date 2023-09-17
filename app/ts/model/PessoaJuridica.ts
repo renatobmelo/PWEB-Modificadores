@@ -1,5 +1,5 @@
 class PessoaJuridica extends Pessoa{
-    private _cnpj: string;
+    readonly _cnpj: string;
 
     constructor(nome: string, idade: number, dataNascimento: Date, cnpj: string){
         super(nome, idade, dataNascimento);
@@ -7,11 +7,7 @@ class PessoaJuridica extends Pessoa{
         this.nome = super.nome + ' - Jurídica';
     }
 
-    set cnpj(value: string) {
-        this._cnpj = value;
-    }
-
-    get cnpj(): string {
+        get cnpj(): string {
         return this._cnpj;
     }
 }
